@@ -1,0 +1,17 @@
+### Login Test
+POST http://localhost:5000/auth/login
+Content-Type: application/json
+
+{
+  "email": "employee1@company.com",
+  "password": "SecurePass123!"
+}
+
+### Payment Test
+POST http://localhost:5000/payment
+Content-Type: application/json
+
+{
+  "amount": "100.50",
+  "iban": "GB82WEST12345698765432"
+}
