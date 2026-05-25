@@ -26,4 +26,4 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=IshkaSewshanker-2412_employee-payments-portal-backend
-            -Dsonar.organization=IshkaSewshanker-2412
+            -Dsonar.organization=ishkasewshanker-2412
